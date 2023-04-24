@@ -1,5 +1,6 @@
 @import './colors.scss';
 @import './fonts.scss';
+@import './reset.scss';
 
 body {
   margin: 0;
@@ -7,6 +8,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('../assets/images/pattern-background-desktop.svg');
   background-repeat: repeat-x;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'red_hat_medium';
   font-size: 16px;
 }
