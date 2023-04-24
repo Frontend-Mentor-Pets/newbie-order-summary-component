@@ -1,1 +1,134 @@
 @import '../../styles/colors.scss';
+
+.card {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $white;
+  box-shadow: 0px 16px 20px 5px $desaturated-blue-shadow;
+  border-radius: 20px;
+  margin-top: 102px;
+}
+
+.hero {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 50px;
+
+  & img {
+    border-radius: inherit;
+  }
+}
+
+.title {
+  font-family: 'red_hat_black';
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 18px;
+}
+
+.subtitle {
+  width: 80%;
+  text-align: center;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.payment {
+  width: 354px;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: $very-pale-blue;
+  padding: 0 24px;
+  margin-bottom: 32px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.plan {
+  height: 63px;
+  width: 167px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.name {
+  font-family: 'red_hat_bold';
+  letter-spacing: 0.3px;
+  color: $dark-blue;
+}
+
+.price {
+  letter-spacing: 0.3px;
+  color: $desaturated-blue;
+}
+
+.change {
+  font-family: 'red_hat_bold';
+  font-size: 14px;
+  color: $bright-blue;
+  transition: all 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.3s;
+  }
+}
+
+.proceed {
+  width: 354px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: $bright-blue;
+  box-shadow: 0px 16px 20px 5px $desaturated-blue-shadow;
+  font-family: 'red_hat_bold';
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  color: $very-pale-blue;
+  margin-bottom: 34px;
+  transition: all 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.3s;
+    opacity: 0.8;
+  }
+
+  &:active {
+    transform: scale(1);
+    transition: all 0.3s;
+  }
+}
+
+.cancel {
+  font-family: 'red_hat_bold';
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  color: $desaturated-blue;
+  margin-bottom: 50px;
+  transition: all 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    color: $red;
+    transition: all 0.3s;
+  }
+}
