@@ -20,9 +20,9 @@ const Card = () => {
           <span className={styles.name}> Annual Plan</span>
           <span className={styles.price}>$59.99/year</span>
         </div>
-        <div className={styles.change}>
-          <span>Change</span>
-        </div>
+        <a href='#!' className={styles.change}>
+          Change
+        </a>
       </div>
       <button className={styles.proceed}>Proceed to Payment</button>
       <button className={styles.cancel}>Cancel Order</button>
