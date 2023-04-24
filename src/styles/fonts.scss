@@ -1,9 +1,24 @@
 @font-face {
-  font-family: 'Red Hat Display';
-  src: url('../assets/fonts/redhatdisplay.woff2') format('woff2'),
-    url('../assets/fonts/redhatdisplay.woff') format('woff'),
-    url('../assets/fonts/redhatdisplay.ttf') format('truetype');
+  font-family: 'red_hat_black';
+  src: url('../assets/fonts/redhat-black.woff2') format('woff2'),
+    url('../assets/fonts/redhat-black.woff') format('woff'), url('../assets/fonts/redhat-black.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
+}
+
+@font-face {
+  font-family: 'red_hat_bold';
+  src: url('../assets/fonts/redhat-bold.woff2') format('woff2'), url('../assets/fonts/redhat-bold.woff') format('woff'),
+    url('../assets/fonts/redhat-bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'red_hat_medium';
+  src: url('../assets/fonts/redhat-medium.woff2') format('woff2'),
+    url('../assets/fonts/redhat-medium.woff') format('woff'),
+    url('../assets/fonts/redhat-medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
