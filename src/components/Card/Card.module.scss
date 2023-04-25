@@ -150,7 +150,7 @@
   letter-spacing: 0.2px;
   color: $very-pale-blue;
   margin-bottom: 34px;
-  transition: all 0.3s;
+  transition: transform 0.3s;
 
   @media (max-width: 490px) {
     width: 279px;
@@ -160,13 +160,13 @@
   &:hover {
     cursor: pointer;
     transform: scale(1.02);
-    transition: all 0.3s;
+    transition: transform 0.3s;
     opacity: 0.8;
   }
 
   &:active {
     transform: scale(1);
-    transition: all 0.3s;
+    transition: transforme 0.3s;
   }
 }
 
