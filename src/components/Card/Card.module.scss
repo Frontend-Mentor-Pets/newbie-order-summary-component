@@ -10,6 +10,11 @@
   box-shadow: 0px 16px 20px 5px $desaturated-blue-shadow;
   border-radius: 20px;
   margin-top: 102px;
+
+  @media (max-width: 490px) {
+    width: 327px;
+    margin-top: 71px;
+  }
 }
 
 .hero {
@@ -17,6 +22,10 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   margin-bottom: 50px;
+
+  @media (max-width: 490px) {
+    margin-bottom: 33px;
+  }
 
   & img {
     width: 100%;
@@ -29,6 +38,10 @@
   font-size: 28px;
   font-weight: 900;
   margin-bottom: 18px;
+
+  @media (max-width: 490px) {
+    font-size: 22px;
+  }
 }
 
 .subtitle {
@@ -36,6 +49,11 @@
   text-align: center;
   line-height: 26px;
   margin-bottom: 20px;
+
+  @media (max-width: 490px) {
+    letter-spacing: -0.4px;
+    margin-bottom: 22px;
+  }
 }
 
 .payment {
@@ -48,6 +66,14 @@
   background-color: $very-pale-blue;
   padding: 0 24px;
   margin-bottom: 32px;
+
+  @media (max-width: 490px) {
+    width: 280px;
+    height: 80px;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin-bottom: 25px;
+  }
 }
 
 .icon {
@@ -67,17 +93,32 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
+
+  @media (max-width: 490px) {
+    width: 110px;
+    height: 30px;
+    justify-content: space-between;
+    gap: 5px;
+  }
 }
 
 .name {
   font-family: 'red_hat_bold';
   letter-spacing: 0.3px;
   color: $dark-blue;
+
+  @media (max-width: 490px) {
+    font-size: 14px;
+  }
 }
 
 .price {
   letter-spacing: 0.3px;
   color: $desaturated-blue;
+
+  @media (max-width: 490px) {
+    font-size: 14px;
+  }
 }
 
 .change {
@@ -85,6 +126,10 @@
   font-size: 14px;
   color: $bright-blue;
   transition: all 0.3s;
+
+  @media (max-width: 490px) {
+    font-size: 14px;
+  }
 
   &:hover {
     cursor: pointer;
@@ -107,6 +152,11 @@
   margin-bottom: 34px;
   transition: all 0.3s;
 
+  @media (max-width: 490px) {
+    width: 279px;
+    margin-bottom: 26px;
+  }
+
   &:hover {
     cursor: pointer;
     transform: scale(1.02);
@@ -127,6 +177,10 @@
   color: $desaturated-blue;
   margin-bottom: 50px;
   transition: all 0.3s;
+
+  @media (max-width: 490px) {
+    margin-bottom: 33px;
+  }
 
   &:hover {
     cursor: pointer;
